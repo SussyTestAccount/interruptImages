@@ -16,6 +16,8 @@
             <button type="button" id="camButton" name="camButton" value="cam">Activate Camera</button>
             <button type="button" id = "micButton" name="micButton" value="mic">Activate Microphone</button>
         </form>
+        <audio id="audioPlayer" controls></audio>
+        <script src="{{ url_for('static', filename='recorder.js') }}"></script>
     </div>
     <hr>
     <a href="/about">Instructions</a>
